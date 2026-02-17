@@ -3,11 +3,11 @@
   connection: local
   vars:
     PROGRAM: "Devsecops with AWS" #string
-    DURATION: 5
-    IS_LIVE: true
-    DETAILS:
+    DURATION: 5  #int/number
+    IS_LIVE: true #bool
+    DETAILS: #map/dictionary{}
       MONTHS: 2
-    TOPICS:
+    TOPICS: # list -/[]
     - Linux
     - Shell
     - Ansible
