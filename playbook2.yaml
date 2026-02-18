@@ -7,7 +7,7 @@
     ansible.builtin.debug:
       msg: "Hello World"
 
-- name: PLAY -2
+- name: PLAY-2
   host: local
   connection: local
   tasks:
