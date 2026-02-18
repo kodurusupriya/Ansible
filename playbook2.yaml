@@ -1,6 +1,6 @@
 - name: Hello World
   #hosts: web
-  host: local
+  hosts: local
   connection: local
   tasks: 
   - name: print hello world
@@ -8,7 +8,7 @@
       msg: "Hello World"
 
 - name: PLAY-2
-  host: local
+  hosts: local
   connection: local
   tasks:
   - name: play-2 and task-1
